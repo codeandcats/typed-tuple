@@ -1,0 +1,7 @@
+/.vscode
+.editorconfig
+.gitignore
+.npmrc
+template.ts
+tsconfig.generate.json
+tsconfig.json
