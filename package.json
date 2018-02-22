@@ -1,0 +1,17 @@
+{
+  "name": "typed-tuple",
+  "version": "1.0.0",
+  "description": "Function that returns a typed tuple from an array of literals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TypeScript",
+    "typed",
+    "tuple",
+    "type"
+  ],
+  "author": "Ben <codeandcats@gmail.com>",
+  "license": "MIT"
+}
