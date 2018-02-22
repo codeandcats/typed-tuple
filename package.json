@@ -1,7 +1,7 @@
 {
   "name": "typed-tuple",
   "version": "1.0.0",
-  "description": "Function that returns a typed tuple from an array of literals.",
+  "description": "A function that returns a typed tuple from an array of literals.",
   "main": "index.js",
   "types" : "index.d.ts",
   "scripts": {
