@@ -23,13 +23,15 @@ function generateTupleOverloads(count: number) {
 function run() {
   const template = fs.readFileSync('./template.ts', { encoding: 'utf8' });
 
-  const MAX_PARAMETER_COUNT = 26;
+  const MAX_PARAMETER_COUNT = 32;
 
   const overloads = generateTupleOverloads(MAX_PARAMETER_COUNT);
 
   const output = template.replace('// <overloads />', overloads);
 
   fs.writeFileSync('./index.ts', output, { encoding: 'utf8' });
+
+  console.log(`Generated function with ${ MAX_PARAMETER_COUNT } overloads`)
 }
 
 run();
