@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Function that returns a typed tuple from an array of literals.",
   "main": "index.js",
+  "types" : "index.d.ts",
   "scripts": {
+    "build": "ts-node ./generate.ts && tsc -p ./tsconfig.json",
+    "clean": "rm ./index.*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,5 +16,10 @@
     "type"
   ],
   "author": "Ben <codeandcats@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "9.4.6",
+    "ts-node": "5.0.0",
+    "typescript": "2.7.2"
+  }
 }
