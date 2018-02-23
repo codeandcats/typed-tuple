@@ -6,3 +6,4 @@ generate.ts
 template.ts
 tsconfig.generate.json
 tsconfig.json
+index.ts
