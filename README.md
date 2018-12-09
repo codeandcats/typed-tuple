@@ -1,5 +1,7 @@
 # typed-tuple
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/codeandcats/typed-tuple.svg)](https://greenkeeper.io/)
+
 A function that returns a typed tuple from an array of literals.
 
 Based on this excellent [gist](https://gist.github.com/jcalz/381562d282ebaa9b41217d1b31e2c211/) by [Joe Calzaretta](https://github.com/jcalz).
